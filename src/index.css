@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-luxury-gold: #D4B26F;
+  --color-luxury-gold-light: #E2C99F;
+  --color-luxury-gold-dark: #B59356;
+  --color-warm-white: #FAF9F6;
+  --color-soft-beige: #E6E1DA;
+  --color-stone-grey: #8E8A84;
+  --color-charcoal: #1C1B1A;
+  --color-matte-black: #0E0E0E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0E0E0E;
+  color: #FAF9F6;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for ultra luxury aesthetics */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0E0E0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C1B1A;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4B26F;
+}
+
+/* Luxury selection highlight */
+::selection {
+  background: #D4B26F;
+  color: #0E0E0E;
+}
+
+/* Custom visual utility layers */
+.text-luxury {
+  background: linear-gradient(135deg, #FAF9F6 0%, #D4B26F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold {
+  background: linear-gradient(135deg, #E2C99F 0%, #B59356 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

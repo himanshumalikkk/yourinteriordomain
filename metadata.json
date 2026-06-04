@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia | Luxury Interior Portfolio",
+  "description": "An award-winning luxury interior design website designed with cinematic showcase grids, interactive before-after comparison sliders, step-by-step premium design builders, and warm travertine typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
